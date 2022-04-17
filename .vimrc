@@ -48,9 +48,6 @@ call vundle#end()
 " the glaive#Install() should go after the "call vundle#end()"
 call glaive#Install()
 
-" Optional: Enable codefmt's default mappings on the <Leader>= prefix.
-Glaive codefmt plugin[mappings]
-Glaive codefmt google_java_executable="java -jar /path/to/google-java-format-VERSION-all-deps.jar"
 filetype plugin indent on    " required
 
 let g:ycm_autoclose_preview_window_after_insertion = 1
