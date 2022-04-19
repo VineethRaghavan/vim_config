@@ -27,7 +27,7 @@ set nocompatible
 " required
 filetype off 
 " theme
-colorscheme torte
+colorscheme industry
 highlight Pmenu ctermfg=15 ctermbg=0 guifg=#ffffff guibg=#000000
 
 " set the runtime path to include Vundle and initialize
